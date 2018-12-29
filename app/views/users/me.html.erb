@@ -1,0 +1,4 @@
+<h2> Profile Page</h2>
+<p> Welcome You're currently signed in with id <%= @user.id %> and email  <%= @user.email %>. </p>
+<br>
+<%= link_to 'Logout', destroy_user_session_path(@user) %>
